@@ -1,0 +1,235 @@
+<section id="team" class="py-24 relative overflow-hidden">
+  <!-- Background Glow -->
+  <div
+    class="absolute top-1/4 right-0 w-96 h-96 bg-indigo-600/10 blur-[120px] rounded-full -z-10"
+  ></div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <!-- Header with Navigation Arrows -->
+    <div
+      class="flex flex-col md:flex-row justify-between items-end gap-6 mb-16 reveal"
+    >
+      <div class="max-w-xl">
+        <span
+          class="text-indigo-400 font-black tracking-[0.3em] uppercase text-[10px] mb-4 block"
+          >Global Force</span
+        >
+        <h2 class="text-4xl md:text-5xl font-black text-white leading-tight">
+          The minds behind the
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400"
+            >System.</span
+          >
+        </h2>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <div class="flex gap-4 mb-2">
+        <button
+          id="prevBtn"
+          type="button"
+          aria-label="Scroll team members left"
+          class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-indigo-600 hover:border-indigo-500 transition-all active:scale-90"
+        >
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button
+          id="nextBtn"
+          type="button"
+          aria-label="Scroll team members right"
+          class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-indigo-600 hover:border-indigo-500 transition-all active:scale-90"
+        >
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel Container -->
+    <div class="relative group">
+      <div
+        id="memberSlider"
+        class="flex gap-10 overflow-x-auto snap-x snap-mandatory scrollbar-hide scroll-smooth pb-10"
+      >
+        <article
+          class="min-w-[280px] md:min-w-[300px] snap-start group/card reveal"
+        >
+          <div class="relative mb-8">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-[2.5rem] rotate-3 group-hover/card:rotate-0 transition-transform duration-500 -z-10"
+            ></div>
+            <div
+              class="bg-[#0f172a] p-1.5 rounded-[2.5rem] border border-white/5 overflow-hidden"
+            >
+              <img
+                src="https://i.pravatar.cc/400?img=1"
+                class="rounded-[2.2rem] grayscale group-hover/card:grayscale-0 transition-all duration-700 object-cover aspect-square"
+                alt="Alex Rivera, Founder and CEO"
+              />
+            </div>
+            <div
+              class="absolute bottom-4 right-4 bg-indigo-600 text-white p-2.5 rounded-2xl shadow-xl opacity-0 group-hover/card:opacity-100 transition-all"
+            >
+              <i class="fab fa-linkedin-in text-sm"></i>
+            </div>
+          </div>
+          <div class="px-2">
+            <h4
+              class="text-xl font-bold text-white mb-1 group-hover/card:text-indigo-400 transition-colors"
+            >
+              Alex Rivera
+            </h4>
+            <p
+              class="text-xs font-black uppercase tracking-widest text-slate-500 mb-4"
+            >
+              Founder &amp; CEO
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="min-w-[280px] md:min-w-[300px] snap-start group/card reveal"
+        >
+          <div class="relative mb-8">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-600 rounded-[2.5rem] -rotate-3 group-hover/card:rotate-0 transition-transform duration-500 -z-10"
+            ></div>
+            <div
+              class="bg-[#0f172a] p-1.5 rounded-[2.5rem] border border-white/5 overflow-hidden"
+            >
+              <img
+                src="https://i.pravatar.cc/400?img=2"
+                class="rounded-[2.2rem] grayscale group-hover/card:grayscale-0 transition-all duration-700 object-cover aspect-square"
+                alt="Sarah Chen, Chief Technology Officer"
+              />
+            </div>
+            <div
+              class="absolute bottom-4 right-4 bg-indigo-600 text-white p-2.5 rounded-2xl shadow-xl opacity-0 group-hover/card:opacity-100 transition-all"
+            >
+              <i class="fab fa-twitter text-sm"></i>
+            </div>
+          </div>
+          <div class="px-2">
+            <h4
+              class="text-xl font-bold text-white mb-1 group-hover/card:text-indigo-400 transition-colors"
+            >
+              Sarah Chen
+            </h4>
+            <p
+              class="text-xs font-black uppercase tracking-widest text-slate-500 mb-4"
+            >
+              Chief Technology Officer
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="min-w-[280px] md:min-w-[300px] snap-start group/card reveal"
+        >
+          <div class="relative mb-8">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-[2.5rem] rotate-3 group-hover/card:rotate-0 transition-transform duration-500 -z-10"
+            ></div>
+            <div
+              class="bg-[#0f172a] p-1.5 rounded-[2.5rem] border border-white/5 overflow-hidden"
+            >
+              <img
+                src="https://i.pravatar.cc/400?img=3"
+                class="rounded-[2.2rem] grayscale group-hover/card:grayscale-0 transition-all duration-700 object-cover aspect-square"
+                alt="Marcus Thorne, Head of Design"
+              />
+            </div>
+          </div>
+          <div class="px-2">
+            <h4 class="text-xl font-bold text-white mb-1">Marcus Thorne</h4>
+            <p
+              class="text-xs font-black uppercase tracking-widest text-slate-500"
+            >
+              Head of Design
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="min-w-[280px] md:min-w-[300px] snap-start group/card reveal"
+        >
+          <div class="relative mb-8">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-green-500 to-teal-600 rounded-[2.5rem] -rotate-3 group-hover/card:rotate-0 transition-transform duration-500 -z-10"
+            ></div>
+            <div
+              class="bg-[#0f172a] p-1.5 rounded-[2.5rem] border border-white/5 overflow-hidden"
+            >
+              <img
+                src="https://i.pravatar.cc/400?img=4"
+                class="rounded-[2.2rem] grayscale group-hover/card:grayscale-0 transition-all duration-700 object-cover aspect-square"
+                alt="Jamie Smith, Marketing Director"
+              />
+            </div>
+          </div>
+          <div class="px-2">
+            <h4 class="text-xl font-bold text-white mb-1">Jamie Smith</h4>
+            <p
+              class="text-xs font-black uppercase tracking-widest text-slate-500"
+            >
+              Marketing Director
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="min-w-[280px] md:min-w-[300px] snap-start group/card reveal"
+        >
+          <div class="relative mb-8">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-600 rounded-[2.5rem] rotate-3 group-hover/card:rotate-0 transition-transform duration-500 -z-10"
+            ></div>
+            <div
+              class="bg-[#0f172a] p-1.5 rounded-[2.5rem] border border-white/5 overflow-hidden"
+            >
+              <img
+                src="https://i.pravatar.cc/400?img=5"
+                class="rounded-[2.2rem] grayscale group-hover/card:grayscale-0 transition-all duration-700 object-cover aspect-square"
+                alt="Alex Johnson, Sales Manager"
+              />
+            </div>
+          </div>
+          <div class="px-2">
+            <h4 class="text-xl font-bold text-white mb-1">Alex Johnson</h4>
+            <p
+              class="text-xs font-black uppercase tracking-widest text-slate-500"
+            >
+              Sales Manager
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="min-w-[280px] md:min-w-[300px] snap-start group/card reveal"
+        >
+          <div class="relative mb-8">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-[2.5rem] rotate-3 group-hover/card:rotate-0 transition-transform duration-500 -z-10"
+            ></div>
+            <div
+              class="bg-[#0f172a] p-1.5 rounded-[2.5rem] border border-white/5 overflow-hidden"
+            >
+              <img
+                src="https://i.pravatar.cc/400?img=6"
+                class="rounded-[2.2rem] grayscale group-hover/card:grayscale-0 transition-all duration-700 object-cover aspect-square"
+                alt="Nina Patel, Product Lead"
+              />
+            </div>
+          </div>
+          <div class="px-2">
+            <h4 class="text-xl font-bold text-white mb-1">Nina Patel</h4>
+            <p
+              class="text-xs font-black uppercase tracking-widest text-slate-500"
+            >
+              Product Lead
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
