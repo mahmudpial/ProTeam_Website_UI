@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team & Pricing | Professional Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      .team-card:hover {
+        transform: translateY(-10px);
+        transition: transform 0.3s ease;
+      }
+      .pricing-card:hover {
+        transform: translateY(-8px);
+        transition: transform 0.3s ease;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      }
+      .social-icons a {
+        transition: all 0.3s ease;
+      }
+      .social-icons a:hover {
+        transform: scale(1.2);
+      }
+      .gradient-text {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="text-2xl font-bold gradient-text">ProTeam</div>
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#team"
+              class="text-gray-700 hover:text-purple-600 transition"
+              >Team</a
+            >
+            <a
+              href="#pricing"
+              class="text-gray-700 hover:text-purple-600 transition"
+              >Pricing</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-700 hover:text-purple-600 transition"
+              >Contact</a
+            >
+          </div>
+          <button
+            class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-20"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Meet Our Exceptional Team
+        </h1>
+        <p class="text-xl text-purple-100 mb-8">
+          World-class professionals dedicated to your success
+        </p>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Our Leadership Team
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Experienced professionals with proven track records in their
+            respective fields
+          </p>
+        </div>
+
+        <!-- Team Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Team Member 1 -->
+          <div
+            class="team-card bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+          >
+            <div
+              class="relative h-64 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center"
+            >
+              <div
+                class="w-40 h-40 bg-blue-300 rounded-full flex items-center justify-center text-6xl"
+              >
+                <i class="fas fa-user-tie text-blue-600"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-1">
+                John Mitchell
+              </h3>
+              <p class="text-purple-600 font-semibold mb-3">
+                Chief Executive Officer
+              </p>
+              <p class="text-gray-600 text-sm mb-4">
+                15+ years of experience in digital transformation and business
+                strategy
+              </p>
+              <div class="social-icons flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-blue-600"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-blue-400"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-gray-900"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-red-600"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div
+            class="team-card bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+          >
+            <div
+              class="relative h-64 bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center"
+            >
+              <div
+                class="w-40 h-40 bg-pink-300 rounded-full flex items-center justify-center text-6xl"
+              >
+                <i class="fas fa-user-secret text-pink-600"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-1">
+                Sarah Williams
+              </h3>
+              <p class="text-purple-600 font-semibold mb-3">
+                Chief Technology Officer
+              </p>
+              <p class="text-gray-600 text-sm mb-4">
+                Expert in cloud architecture and full-stack development
+                solutions
+              </p>
+              <div class="social-icons flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-blue-600"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-blue-400"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-gray-900"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-red-600"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div
+            class="team-card bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+          >
+            <div
+              class="relative h-64 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center"
+            >
+              <div
+                class="w-40 h-40 bg-green-300 rounded-full flex items-center justify-center text-6xl"
+              >
+                <i class="fas fa-user-tie text-green-600"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-1">Michael Chen</h3>
+              <p class="text-purple-600 font-semibold mb-3">Product Manager</p>
+              <p class="text-gray-600 text-sm mb-4">
+                Passionate about building user-centric products that scale
+                globally
+              </p>
+              <div class="social-icons flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-blue-600"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-blue-400"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-gray-900"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-red-600"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 4 -->
+          <div
+            class="team-card bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+          >
+            <div
+              class="relative h-64 bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center"
+            >
+              <div
+                class="w-40 h-40 bg-orange-300 rounded-full flex items-center justify-center text-6xl"
+              >
+                <i class="fas fa-user-circle text-orange-600"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-1">
+                Emma Rodriguez
+              </h3>
+              <p class="text-purple-600 font-semibold mb-3">Head of Design</p>
+              <p class="text-gray-600 text-sm mb-4">
+                Award-winning designer with a focus on user experience and
+                innovation
+              </p>
+              <div class="social-icons flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-blue-600"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-blue-400"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-gray-900"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#" class="text-gray-400 hover:text-red-600"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Simple, Transparent Pricing
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Choose the perfect plan for your needs. Always flexible to scale up
+            or down.
+          </p>
+        </div>
+
+        <!-- Pricing Toggle -->
+        <div class="flex justify-center mb-12">
+          <div class="inline-flex items-center bg-gray-200 rounded-lg p-1">
+            <button
+              class="px-6 py-2 rounded-lg bg-white text-gray-900 font-semibold transition"
+              onclick="toggleBilling('monthly')"
+            >
+              Monthly
+            </button>
+            <button
+              class="px-6 py-2 rounded-lg text-gray-600 font-semibold transition hover:text-gray-900"
+              onclick="toggleBilling('yearly')"
+            >
+              Yearly <span class="text-green-600 font-bold">-20%</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Starter Plan -->
+          <div
+            class="pricing-card bg-gray-50 rounded-xl border-2 border-gray-200 p-8 hover:border-purple-600"
+          >
+            <div class="mb-6">
+              <h3 class="text-2xl font-bold text-gray-900 mb-2">Starter</h3>
+              <p class="text-gray-600 mb-6">
+                Perfect for individuals and small teams
+              </p>
+              <div class="flex items-baseline">
+                <span class="text-5xl font-bold text-gray-900">$29</span>
+                <span class="text-gray-600 ml-2">/month</span>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-gray-900 text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition mb-8"
+            >
+              Get Started
+            </button>
+
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">Up to 5 projects</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">5 GB storage</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">Basic analytics</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">Email support</span>
+              </div>
+              <div class="flex items-center opacity-50">
+                <i class="fas fa-times text-gray-400 mr-3"></i>
+                <span class="text-gray-500">Advanced features</span>
+              </div>
+              <div class="flex items-center opacity-50">
+                <i class="fas fa-times text-gray-400 mr-3"></i>
+                <span class="text-gray-500">Priority support</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional Plan (Featured) -->
+          <div
+            class="pricing-card bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-xl p-8 transform md:scale-105 shadow-2xl"
+          >
+            <div
+              class="inline-block bg-yellow-400 text-gray-900 px-4 py-1 rounded-full text-sm font-bold mb-4"
+            >
+              MOST POPULAR
+            </div>
+            <div class="mb-6">
+              <h3 class="text-2xl font-bold mb-2">Professional</h3>
+              <p class="text-purple-100 mb-6">Best for growing teams</p>
+              <div class="flex items-baseline">
+                <span class="text-5xl font-bold">$79</span>
+                <span class="text-purple-200 ml-2">/month</span>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-white text-purple-600 py-3 rounded-lg font-semibold hover:bg-gray-100 transition mb-8"
+            >
+              Get Started
+            </button>
+
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <i class="fas fa-check mr-3"></i>
+                <span>Unlimited projects</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check mr-3"></i>
+                <span>100 GB storage</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check mr-3"></i>
+                <span>Advanced analytics</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check mr-3"></i>
+                <span>Priority support</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check mr-3"></i>
+                <span>Advanced features</span>
+              </div>
+              <div class="flex items-center opacity-75">
+                <i class="fas fa-times mr-3"></i>
+                <span>Custom integrations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enterprise Plan -->
+          <div
+            class="pricing-card bg-gray-50 rounded-xl border-2 border-gray-200 p-8 hover:border-purple-600"
+          >
+            <div class="mb-6">
+              <h3 class="text-2xl font-bold text-gray-900 mb-2">Enterprise</h3>
+              <p class="text-gray-600 mb-6">For large-scale operations</p>
+              <div class="flex items-baseline">
+                <span class="text-5xl font-bold text-gray-900">Custom</span>
+              </div>
+              <p class="text-gray-600 mt-2">Contact us for pricing</p>
+            </div>
+
+            <button
+              class="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition mb-8"
+            >
+              Contact Sales
+            </button>
+
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">Everything in Professional</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">Unlimited storage</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">Custom integrations</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">Dedicated account manager</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">24/7 phone support</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-3"></i>
+                <span class="text-gray-700">SLA guarantee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="mt-20">
+          <h3 class="text-3xl font-bold text-center text-gray-900 mb-12">
+            Frequently Asked Questions
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <h4 class="font-bold text-lg text-gray-900 mb-3">
+                Can I change my plan?
+              </h4>
+              <p class="text-gray-600">
+                Yes, you can upgrade or downgrade your plan at any time. Changes
+                take effect on your next billing cycle.
+              </p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <h4 class="font-bold text-lg text-gray-900 mb-3">
+                Is there a free trial?
+              </h4>
+              <p class="text-gray-600">
+                Absolutely! We offer a 14-day free trial for all plans. No
+                credit card required to get started.
+              </p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <h4 class="font-bold text-lg text-gray-900 mb-3">
+                What payment methods do you accept?
+              </h4>
+              <p class="text-gray-600">
+                We accept all major credit cards, PayPal, and bank transfers for
+                enterprise customers.
+              </p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <h4 class="font-bold text-lg text-gray-900 mb-3">
+                Do you offer refunds?
+              </h4>
+              <p class="text-gray-600">
+                Yes, we offer a 30-day money-back guarantee if you're not
+                satisfied with our service.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold mb-4">Ready to Get Started?</h2>
+          <p class="text-xl text-gray-400 mb-8">
+            Join thousands of satisfied customers who trust our platform
+          </p>
+          <button
+            class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-10 rounded-lg text-lg transition"
+          >
+            Start Your Free Trial Today
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          <div>
+            <h4 class="font-bold text-white mb-4">Product</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="hover:text-white transition">Features</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition">Security</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-white mb-4">Company</h4>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white transition">About</a></li>
+              <li><a href="#" class="hover:text-white transition">Blog</a></li>
+              <li>
+                <a href="#" class="hover:text-white transition">Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-white mb-4">Legal</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="hover:text-white transition">Privacy</a>
+              </li>
+              <li><a href="#" class="hover:text-white transition">Terms</a></li>
+              <li>
+                <a href="#" class="hover:text-white transition">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-white mb-4">Follow Us</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="hover:text-white transition"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="hover:text-white transition"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="hover:text-white transition"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="#" class="hover:text-white transition"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-gray-700 pt-8 text-center">
+          <p>&copy; 2024 ProTeam. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function toggleBilling(type) {
+        // Smooth transition for billing toggle
+        const buttons = document.querySelectorAll("[onclick]");
+        buttons.forEach((btn) => {
+          btn.classList.remove("bg-white", "text-gray-900");
+          btn.classList.add("text-gray-600");
+        });
+
+        event.target.classList.add("bg-white", "text-gray-900");
+        event.target.classList.remove("text-gray-600");
+
+        // Update pricing display
+        console.log("Billing period changed to:", type);
+      }
+
+      // Smooth scroll for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
