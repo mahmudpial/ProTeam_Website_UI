@@ -28,17 +28,7 @@ Built with plain HTML, Tailwind CSS, and lightweight JavaScript, this project ke
 
 ## Screenshot
 
-Add a screenshot here once you have one available.
-
-```text
-assets/images/screenshot.png
-```
-
-If you prefer, you can replace this block with an embedded image:
-
-```md
 ![ProTeam Website UI](assets/images/screenshot.png)
-```
 
 ## Project Structure
 
