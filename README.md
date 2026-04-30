@@ -7,6 +7,7 @@ Built with plain HTML, Tailwind CSS, and lightweight JavaScript, this project ke
 [![Live Demo](https://img.shields.io/badge/demo-live-success?style=for-the-badge)](#getting-started)
 [![Static Site](https://img.shields.io/badge/build-static-blue?style=for-the-badge)](#tech-stack)
 [![No Framework](https://img.shields.io/badge/framework-none-informational?style=for-the-badge)](#tech-stack)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](#license)
 
 ## Highlights
 
@@ -102,4 +103,4 @@ http://localhost:8000
 
 ## License
 
-No license has been specified yet. Add one if you plan to publish or share the project publicly.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
